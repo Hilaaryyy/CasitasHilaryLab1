@@ -6,43 +6,52 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="217dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_below="@+id/textView2"
+        android:adjustViewBounds="true"
         app:srcCompat="@drawable/elnido" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="236dp"
-        android:text="   El Nido Resorts Minoloc "
+        android:layout_marginTop="228dp"
+        android:text="El Nido Resorts Minoloc"
+        android:textAllCaps="true"
         android:textColor="@android:color/black"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:typeface="normal"
         app:fontFamily="serif" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="256dp"
-        android:layout_marginStart="12dp"
-        android:text="Location: El Nido, Philippines" />
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:text="Location: El Nido, Philippines"
+        android:textColor="@android:color/black" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentBottom="false"
         android:layout_alignStart="@+id/textView3"
-        android:layout_marginBottom="229dp"
-        android:text="Distance from UST:  616.6km" />
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="5dp"
+        android:text="Distance from UST:  616.6km"
+        android:textColor="@android:color/black" />
 
     <Button
         android:id="@+id/button"
@@ -50,16 +59,16 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="22dp"
-        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="15dp"
         android:text="NEXT" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:layout_alignStart="@+id/textView3"
         android:layout_alignTop="@+id/button"
-        android:layout_marginStart="19dp"
         android:text="BACK" />
+
 </RelativeLayout>
