@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">CasitasHilaryLab1</string>
+    <string name="app_name1">Linear Layout</string>
+    <string name="app_name2">Relative Layout</string>
+    <string name="app_name3">Constraint Layout</string>
 </resources>
